@@ -48,15 +48,27 @@ namespace Adventure_Game
             }
             else if (page == 4)
             {
-                page = 1;
+                page = 99;
+            }
+            else if (page == 5)
+            {
+                page = 6;
             }
             else if (page == 6)
             {
-                page = 1;
+                page = 99;
+            }
+            else if (page == 7)
+            {
+                page = 8;
             }
             else if (page == 8)
             {
-                page = 1;
+                page = 99;
+            }
+            else if (page == 9)
+            {
+                page = 10;
             }
             else if (page == 10)
             {
@@ -64,15 +76,23 @@ namespace Adventure_Game
             }
             else if (page == 12)
             {
-                page = 1;
+                page = 99;
+            }
+            else if (page == 13)
+            {
+                page = 14;
             }
             else if (page == 14)
             {
-                page = 1;
+                page = 99;
+            }
+            else if (page == 15)
+            {
+                page = 16;
             }
             else if (page == 16)
             {
-                page = 1;
+                page = 99;
             }
 
             /// Display text and game options to screen based on the 
@@ -198,6 +218,10 @@ namespace Adventure_Game
             {
                 page = 99;
             }
+            else if (page == 2)
+            {
+                page = 5;
+            }
             else if (page == 5)
             {
                 page = 7;
@@ -213,6 +237,10 @@ namespace Adventure_Game
             else if (page == 11)
             {
                 page = 99;
+            }
+            else if (page == 10)
+            {
+                page = 13;
             }
             else if (page == 13)
             {
@@ -267,8 +295,8 @@ namespace Adventure_Game
                 case 7:
                     outputLabel.Text = "You pay and leave. It's getting dark out, " +
                         "do you call a taxi or walk home?";
-                    option1Label.Text = "Call a Taxi";
-                    option2Label.Text = "Walk Home";
+                    option1Label.Text = "Walk Home";
+                    option2Label.Text = "Call a Taxi";
                     break;
                 case 8:
                     outputLabel.Text = "You get lost and eaten by wolves. Play again?";
