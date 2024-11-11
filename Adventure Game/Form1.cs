@@ -48,7 +48,7 @@ namespace Adventure_Game
             }
             else if (page == 4)
             {
-                page = 99;
+                page = 1;
             }
             else if (page == 5)
             {
@@ -56,7 +56,7 @@ namespace Adventure_Game
             }
             else if (page == 6)
             {
-                page = 99;
+                page = 1;
             }
             else if (page == 7)
             {
@@ -64,7 +64,7 @@ namespace Adventure_Game
             }
             else if (page == 8)
             {
-                page = 99;
+                page = 1;
             }
             else if (page == 9)
             {
@@ -76,7 +76,7 @@ namespace Adventure_Game
             }
             else if (page == 12)
             {
-                page = 99;
+                page = 1;
             }
             else if (page == 13)
             {
@@ -84,7 +84,7 @@ namespace Adventure_Game
             }
             else if (page == 14)
             {
-                page = 99;
+                page = 1;
             }
             else if (page == 15)
             {
@@ -92,7 +92,11 @@ namespace Adventure_Game
             }
             else if (page == 16)
             {
-                page = 99;
+                page = 1;
+            }
+            else if (page == 99)
+            {
+                Close();
             }
 
             /// Display text and game options to screen based on the 
@@ -153,8 +157,8 @@ namespace Adventure_Game
                 case 10:
                     outputLabel.Text = "Your driver apologizes for the mistake and turns around." +
                         "Once you're home you get ready for bed. You hear a noise. Do you ignore it?";
-                    option1Label.Text = "Yes";
-                    option2Label.Text = "No";
+                    option1Label.Text = "No";
+                    option2Label.Text = "Yes";
                     break;
                 case 11:
                     outputLabel.Text = "You get kidnapped and die. Play again?";
@@ -185,16 +189,14 @@ namespace Adventure_Game
                     option2Label.Text = "Slow down";
                     break;
                 case 16:
-                    outputLabel.Text = "You call a atxi and wait for it to arrive." +
-                        "While you're driving, you notice this isn't the way to your house." +
-                        "Do you mention this?";
+                    outputLabel.Text = "You get in an accident and die. Play again?";
                     option1Label.Text = "Yes";
                     option2Label.Text = "No";
                     break;
                 case 17:
-                    outputLabel.Text = "You call a taxi and wait for it to arrive." +
-                        "While you're driving, you notice this isn't the way to your house." +
-                        "Do you mention this?";
+                    outputLabel.Text = "You stop at the light and safely make it to work." +
+                        "Congrats!! Play again?";
+
                     option1Label.Text = "Yes";
                     option2Label.Text = "No";
                     break;
@@ -345,22 +347,20 @@ namespace Adventure_Game
                     option2Label.Text = "Slow down";
                     break;
                 case 16:
-                    outputLabel.Text = "You call a atxi and wait for it to arrive." +
-                        "While you're driving, you notice this isn't the way to your house." +
-                        "Do you mention this?";
+                    outputLabel.Text = "You get in an accident and die. Play again?";
                     option1Label.Text = "Yes";
                     option2Label.Text = "No";
                     break;
                 case 17:
-                    outputLabel.Text = "You call a taxi and wait for it to arrive." +
-                        "While you're driving, you notice this isn't the way to your house." +
-                        "Do you mention this?";
+                    outputLabel.Text = "You stop at the light and safely make it to work." +
+                        "Congrats!! Play again?";
+
                     option1Label.Text = "Yes";
                     option2Label.Text = "No";
                     break;
                 case 99:
                     outputLabel.Text = "Thanks for playing !!";
-                    option1Label.Text = "";
+                    option1Label.Text = "Close Program";
                     option2Label.Text = "";
                     break;
                 default:
