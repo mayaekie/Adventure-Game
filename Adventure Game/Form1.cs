@@ -159,6 +159,8 @@ namespace Adventure_Game
                     outputLabel.Text = "You get lost and eaten by wolves. Play again?";
                     option1Label.Text = "Yes";
                     option2Label.Text = "No";
+                    storyImage1.Image = Properties.Resources.wolf;
+                    storyImage2.Image = Properties.Resources.lose;
                     break;
                 case 9:
                     outputLabel.Text = "You call a taxi and wait for it to arrive." +
@@ -323,6 +325,7 @@ namespace Adventure_Game
                     outputLabel.Text = "You get lost and eaten by wolves. Play again?";
                     option1Label.Text = "Yes";
                     option2Label.Text = "No";
+                    
                     break;
                 case 9:
                     outputLabel.Text = "You call a taxi and wait for it to arrive." +
