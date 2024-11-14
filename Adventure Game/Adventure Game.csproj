@@ -86,5 +86,35 @@
   <ItemGroup>
     <None Include="Resources\pixel-heart-png-transparent-png-download-64050.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diner.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\road.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coffee.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\milkshake.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\car.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lose.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\poison.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\empty.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\money.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coins.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

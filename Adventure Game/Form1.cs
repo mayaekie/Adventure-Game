@@ -46,6 +46,10 @@ namespace Adventure_Game
                     page = 5;
                 }
             }
+            else if (page ==3)
+            {
+                page = 1;
+            }
             else if (page == 4)
             {
                 page = 1;
@@ -108,13 +112,16 @@ namespace Adventure_Game
                     outputLabel.Text = "You wander upon a diner. Go inside?";
                     option1Label.Text = "Yes";
                     option2Label.Text = "No";
+                    storyImage1.Image = Properties.Resources.diner;
+                    storyImage2.Image = Properties.Resources.road;
 
                     break;
                 case 2:
                     outputLabel.Text = "An old woman greets you and brings you a menu. What do you order?";
                     option1Label.Text = "Milkshake";
                     option2Label.Text = "Coffee";
-
+                    storyImage1.Image = Properties.Resources.coffee;
+                    storyImage2.Image = Properties.Resources.milkshake;
                     break;
                 case 3:
                     outputLabel.Text = "You turn around and get hit by a car. Play again?";
@@ -125,11 +132,15 @@ namespace Adventure_Game
                     outputLabel.Text = "It was poisoned and you die. Play again?";
                     option1Label.Text = "Yes";
                     option2Label.Text = "No";
+                    storyImage1.Image = Properties.Resources.poison;
+                    storyImage2.Image = Properties.Resources.lose;
                     break;
                 case 5:
                     outputLabel.Text = "You enjoy your drink and ask for the bill. How much do you tip?";
                     option1Label.Text = "Nothing";
                     option2Label.Text = "2.00$";
+                    storyImage1.Image = Properties.Resources.coins;
+                    storyImage2.Image = Properties.Resources.empty;
                     break;
                 case 6:
                     outputLabel.Text = "The old lady gets upset and kills you. Play again?";
@@ -278,6 +289,8 @@ namespace Adventure_Game
                     outputLabel.Text = "You turn around and get hit by a car. Play again?";
                     option1Label.Text = "Yes";
                     option2Label.Text = "No";
+                    storyImage1.Image = Properties.Resources.car;
+                    storyImage2.Image = Properties.Resources.lose;
                     break;
                 case 4:
                     outputLabel.Text = "It was poisoned and you die. Play again?";
@@ -288,6 +301,8 @@ namespace Adventure_Game
                     outputLabel.Text = "You enjoy your drink and ask for the bill. How much do you tip?";
                     option1Label.Text = "Nothing";
                     option2Label.Text = "2.00$";
+                    storyImage1.Image = Properties.Resources.coins;
+                    storyImage2.Image = Properties.Resources.empty;
                     break;
                 case 6:
                     outputLabel.Text = "The old lady gets upset and kills you. Play again?";
