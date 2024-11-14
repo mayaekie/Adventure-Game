@@ -146,6 +146,8 @@ namespace Adventure_Game
                     outputLabel.Text = "The old lady gets upset and kills you. Play again?";
                     option1Label.Text = "Yes";
                     option2Label.Text = "No";
+                    storyImage1.Image = Properties.Resources.gma;
+                    storyImage2.Image = Properties.Resources.lose;
                     break;
                 case 7:
                     outputLabel.Text = "You pay and leave. It's getting dark out, " +
@@ -314,6 +316,8 @@ namespace Adventure_Game
                         "do you call a taxi or walk home?";
                     option1Label.Text = "Walk Home";
                     option2Label.Text = "Call a Taxi";
+                    storyImage1.Image = Properties.Resources.taxi;
+                    storyImage2.Image = Properties.Resources.walk;
                     break;
                 case 8:
                     outputLabel.Text = "You get lost and eaten by wolves. Play again?";
