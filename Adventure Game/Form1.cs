@@ -174,6 +174,8 @@ namespace Adventure_Game
                         "Once you're home you get ready for bed. You hear a noise. Do you ignore it?";
                     option1Label.Text = "No";
                     option2Label.Text = "Yes";
+                    storyImage1.Image = Properties.Resources.bed;
+                    storyImage2.Image = Properties.Resources.stairs;
                     break;
                 case 11:
                     outputLabel.Text = "You get kidnapped and die. Play again?";
@@ -185,6 +187,8 @@ namespace Adventure_Game
                         "Play again?";
                     option1Label.Text = "Yes";
                     option2Label.Text = "No";
+                    storyImage1.Image = Properties.Resources.stairs;
+                    storyImage2.Image = Properties.Resources.lose;
                     break;
                 case 13:
                     outputLabel.Text = "You ignore it and fall asleep. The next day you wakeup and get ready " +
@@ -196,6 +200,8 @@ namespace Adventure_Game
                     outputLabel.Text = "You choke and die. Play again?";
                     option1Label.Text = "Yes";
                     option2Label.Text = "No";
+                    storyImage1.Image = Properties.Resources.choke;
+                    storyImage2.Image = Properties.Resources.lose;
                     break;
                 case 15:
                     outputLabel.Text = "You enjoy the muffin on your drive. While approaching a traffic light" +
@@ -207,6 +213,8 @@ namespace Adventure_Game
                     outputLabel.Text = "You get in an accident and die. Play again?";
                     option1Label.Text = "Yes";
                     option2Label.Text = "No";
+                    storyImage1.Image = Properties.Resources.car_crash;
+                    storyImage2.Image = Properties.Resources.lose;
                     break;
                 case 17:
                     outputLabel.Text = "You stop at the light and safely make it to work." +
@@ -219,6 +227,8 @@ namespace Adventure_Game
                     outputLabel.Text = "Thanks for playing !!";
                     option1Label.Text = "";
                     option2Label.Text = "";
+                    storyImage1.Image = Properties.Resources.Screenshot__669_;
+                    storyImage2.Image = Properties.Resources.Screenshot__669_;
                     break;
                 default:
                     break;
@@ -333,6 +343,8 @@ namespace Adventure_Game
                         "Do you mention this?";
                     option1Label.Text = "Yes";
                     option2Label.Text = "No";
+                    storyImage1.Image = Properties.Resources.taxi;
+                    storyImage2.Image = Properties.Resources.taxi_drive;
                     break;
                 case 10:
                     outputLabel.Text = "Your driver apologizes for the mistake and turns around." +
@@ -344,6 +356,8 @@ namespace Adventure_Game
                     outputLabel.Text = "You get kidnapped and die. Play again?";
                     option1Label.Text = "Yes";
                     option2Label.Text = "No";
+                    storyImage1.Image = Properties.Resources.taxi_drive;
+                    storyImage2.Image = Properties.Resources.lose;
                     break;
                 case 12:
                     outputLabel.Text = "Trying to find the noise, you trip down the stairs and break your neck." +
@@ -356,6 +370,8 @@ namespace Adventure_Game
                         "for work. As you're leaving you grab a snack. What do you choose?";
                     option1Label.Text = "Apple";
                     option2Label.Text = "Muffin";
+                    storyImage1.Image = Properties.Resources.apple;
+                    storyImage2.Image = Properties.Resources.muffin;
                     break;
                 case 14:
                     outputLabel.Text = "You choke and die. Play again?";
@@ -364,9 +380,11 @@ namespace Adventure_Game
                     break;
                 case 15:
                     outputLabel.Text = "You enjoy the muffin on your drive. While approaching a traffic light" +
-                        "it turns yellow. Do you speed up or slow down?";
+                        " it turns yellow. Do you speed up or slow down?";
                     option1Label.Text = "Speed thru";
                     option2Label.Text = "Slow down";
+                    storyImage1.Image = Properties.Resources.yellow_light;
+                    storyImage2.Image = Properties.Resources.time;
                     break;
                 case 16:
                     outputLabel.Text = "You get in an accident and die. Play again?";
@@ -379,11 +397,15 @@ namespace Adventure_Game
 
                     option1Label.Text = "Yes";
                     option2Label.Text = "No";
+                    storyImage1.Image = Properties.Resources.work;
+                    storyImage2.Image = Properties.Resources.win;
                     break;
                 case 99:
                     outputLabel.Text = "Thanks for playing !!";
                     option1Label.Text = "Close Program";
                     option2Label.Text = "";
+                    storyImage1.Image = Properties.Resources.Screenshot__669_;
+                    storyImage2.Image = Properties.Resources.Screenshot__669_;
                     break;
                 default:
                     break;

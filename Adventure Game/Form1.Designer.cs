@@ -44,7 +44,7 @@
             // 
             this.option2Button.BackColor = System.Drawing.Color.White;
             this.option2Button.Location = new System.Drawing.Point(105, 399);
-            this.option2Button.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.option2Button.Margin = new System.Windows.Forms.Padding(4);
             this.option2Button.Name = "option2Button";
             this.option2Button.Size = new System.Drawing.Size(51, 46);
             this.option2Button.TabIndex = 0;
@@ -91,7 +91,7 @@
             // 
             this.option1Button.BackColor = System.Drawing.Color.White;
             this.option1Button.Location = new System.Drawing.Point(105, 320);
-            this.option1Button.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.option1Button.Margin = new System.Windows.Forms.Padding(4);
             this.option1Button.Name = "option1Button";
             this.option1Button.Size = new System.Drawing.Size(51, 46);
             this.option1Button.TabIndex = 6;
@@ -132,7 +132,7 @@
             this.Controls.Add(this.option1Label);
             this.Controls.Add(this.option2Button);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "Adventure Game";
             ((System.ComponentModel.ISupportInitialize)(this.storyImage2)).EndInit();

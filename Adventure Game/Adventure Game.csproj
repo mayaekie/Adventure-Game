@@ -128,5 +128,41 @@
   <ItemGroup>
     <None Include="Resources\wolf.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\taxi drive.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stairs.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\apple.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\muffin.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yellow light.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\win.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\work.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bed.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\choke.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\car crash.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\time.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot %28669%29.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
